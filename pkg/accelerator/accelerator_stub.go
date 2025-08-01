@@ -8,12 +8,6 @@
 
 package accelerator
 
-import (
-	"runtime"
-
-	"github.com/pkg/errors"
-)
-
 func (i *Info) load() error {
 	return nil
 }
