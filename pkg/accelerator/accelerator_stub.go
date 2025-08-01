@@ -15,5 +15,5 @@ import (
 )
 
 func (i *Info) load() error {
-	return errors.New("accelerator.Info.load not implemented on " + runtime.GOOS)
+	return nil
 }
